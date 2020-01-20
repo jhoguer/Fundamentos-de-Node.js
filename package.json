@@ -1,0 +1,19 @@
+{
+  "name": "fundamentos-de-node",
+  "version": "1.0.0",
+  "description": "Node.js, backend, JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhoguer/Fundamentos-de-Node.js.git"
+  },
+  "author": "Jhon Guerrero <jhoguer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jhoguer/Fundamentos-de-Node.js/issues"
+  },
+  "homepage": "https://github.com/jhoguer/Fundamentos-de-Node.js#readme"
+}
