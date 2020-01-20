@@ -10,4 +10,4 @@ setInterval(() => {
   // }
 }, 1000);
 
-console.log('Segunda interaccion');
+console.log('Ultima interaccion');
