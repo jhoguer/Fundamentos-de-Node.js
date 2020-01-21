@@ -30,7 +30,7 @@ const conversacion = (nombre, veces, callback) => {
 }
 console.log('Iniciando proceso....');
 hola('Jhon', (nombre) => {
-  conversacion(nombre, 3, () => {    
+  conversacion(nombre, 5, () => {    
     console.log('terminando proceso....');
   })
 })
