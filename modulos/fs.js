@@ -26,6 +26,6 @@ const borrar = (ruta, cb) => {
 
 // leer(__dirname + '/archivo1.txt', console.log);
 
-// escribir(__dirname + '/archivo1.txt', 'Soy un archivo nuevo!!!!', console.log)
+escribir(__dirname + '/archivo1.txt', 'Soy un archivo nuevo!!!!', console.log)
 
-borrar(__dirname + '/archivo1.txt', console.log);
+//borrar(__dirname + '/archivo1.txt', console.log);

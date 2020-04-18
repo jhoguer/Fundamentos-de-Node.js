@@ -1,4 +1,4 @@
-async function hola(nombre) {
+function hola(nombre) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       console.log('Hola ' + nombre);
@@ -7,7 +7,7 @@ async function hola(nombre) {
   })
 }
 
-async function hablar(nombre) {
+function hablar(nombre) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       console.log('Bla bla bla bla...');
@@ -17,7 +17,7 @@ async function hablar(nombre) {
   })
 }
 
-async function adios(nombre) {
+function adios(nombre) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       console.log('Adios ' + nombre);

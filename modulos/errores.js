@@ -25,7 +25,7 @@ try {
   });
 } catch(err) {
   console.error('Vaya, algo se ha roto');
-  console.error(err);
+  console.error(err.message);
   console.log('Pero no pasa nada, lo hemos capturado');
 }
 

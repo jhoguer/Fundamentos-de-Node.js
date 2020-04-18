@@ -1,7 +1,7 @@
-function hola(nombre, micallback) {
+function hola(nombre, callbackDehola) {
   setTimeout(() => {
     console.log('Hola ' + nombre);
-    micallback(nombre);
+    callbackDehola(nombre);
   }, 2000);
 }
 
@@ -12,10 +12,10 @@ function hablar(callbackHablar) {
   }, 1000)
 }
 
-function adios(nombre, otroCallback) {
+function adios(nombre, callbackConversacion) {
   setTimeout(() => {
     console.log('Adios ' + nombre);
-    otroCallback()
+    callbackConversacion()
   }, 1500)
 }
 
