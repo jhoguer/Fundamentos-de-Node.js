@@ -11,6 +11,6 @@
   "author": "Jhon Guerrero <jhoguer@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "electron": "^8.2.3"
+    "electron": "^13.6.6"
   }
 }
